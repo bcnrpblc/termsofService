@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light gray background for subtle feel */
+    color: #333; /* Dark but soft text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f3975; /* Retain the strong header color */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white; /* Clean white background for content area */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+}
+
+h1, h2 {
+    color: #1f3975; /* Keep header colors consistent */
+}
+
+h3 {
+    color: #1f3975; /* Keep subheaders consistent */
+}
+
+p {
+    line-height: 1.6;
+    color: #333; /* Maintain black text for readability */
+    font-size: 16px; /* Adjust font size for subtlety */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input, form button {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form input[type="text"], form input[type="email"] {
+    width: 100%;
+}
+
+form button {
+    background-color: #1f3975;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #163a69; /* Slightly darker on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f3975; /* Same strong footer color */
+    color: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for footer */
+}
